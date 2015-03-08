@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"              
+android:layout_width="fill_parent"               
+android:layout_height="fill_parent"             
+ android:orientation="vertical" >
+
+  
+<Button android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:text="Hear again" />
+         
+ <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/statusline"
+  android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+      android:text=""/>
+
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:stretchColumns="1">
+     <TableRow>
+             <Button android:id="@+id/interval0"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Unison" />
+         
+             <TextView
+                  android:id="@+id/intervalresults0"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="left"
+              />
+              
+              
+    </TableRow> 
+     <TableRow>
+             <Button android:id="@+id/interval1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Minor second" />
+         
+             <TextView
+                  android:id="@+id/intervalresults1"
+                  android:gravity="left"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  
+              />
+              
+              <Button android:id="@+id/interval2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Major second" />
+         
+             <TextView
+                  android:id="@+id/intervalresults2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="left"
+              />
+    </TableRow> 
+     <TableRow>
+             <Button android:id="@+id/interval3"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Minor third" />
+         
+             <TextView
+                  android:id="@+id/intervalresults3"
+                  android:gravity="left"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  
+              />
+              
+              <Button android:id="@+id/interval4"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Major third" />
+         
+             <TextView
+                  android:id="@+id/intervalresults4"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="left"
+              />
+    </TableRow>
+    <TableRow>
+             <Button android:id="@+id/interval5"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Perfect fourth" />
+         
+             <TextView
+                  android:id="@+id/intervalresults5"
+                  android:gravity="left"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  
+              />
+              
+    </TableRow>
+    
+    <TableRow>
+             <Button android:id="@+id/interval6"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Tritone" />
+         
+             <TextView
+                  android:id="@+id/intervalresults6"
+                  android:gravity="left"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  
+              />
+              
+              <Button android:id="@+id/interval7"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Perfect fifth" />
+         
+             <TextView
+                  android:id="@+id/intervalresults7"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="left"
+              />
+    </TableRow> 
+    <TableRow>
+             <Button android:id="@+id/interval8"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Minor sixth" />
+         
+             <TextView
+                  android:id="@+id/intervalresults8"
+                  android:gravity="left"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  
+              />
+              
+              <Button android:id="@+id/interval9"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Major sixth" />
+         
+             <TextView
+                  android:id="@+id/intervalresults9"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="left"
+              />
+    </TableRow> 
+    <TableRow>
+             <Button android:id="@+id/interval10"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Minor seventh" />
+         
+             <TextView
+                  android:id="@+id/intervalresults10"
+                  android:gravity="left"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  
+              />
+              
+              <Button android:id="@+id/interval11"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Major seventh" />
+         
+             <TextView
+                  android:id="@+id/intervalresults11"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="left"
+              />
+    </TableRow> 
+    <TableRow>
+             <Button android:id="@+id/interval12"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Octave" />
+         
+             <TextView
+                  android:id="@+id/intervalresults12"
+                  android:gravity="left"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  
+              />
+              
+     
+    </TableRow> 
+       
+      
+      
+      
+  </TableLayout>
+</LinearLayout>
